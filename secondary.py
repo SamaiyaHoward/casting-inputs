@@ -36,7 +36,20 @@
 #           $
 #
 # ---- WRITE CODE BELOW ---- #
-
+symbol1 = input('Enter a symbol: ')
+print(' '*10,symbol1*1)
+print(' '*9,symbol1*3)
+print(' '*8,symbol1*5)
+print(' '*7,symbol1*7)
+print(' '*6,symbol1*9)
+print(' '*5,symbol1*11)
+print(' '*4,symbol1*13)
+print(' '*5,symbol1*11)
+print(' '*6,symbol1*9)
+print(' '*7,symbol1*7)
+print(' '*8,symbol1*5)
+print(' '*9,symbol1*3)
+print(' '*10,symbol1*1)
 
 #   2. Framed Diamond
 #       a. Define a function that accept the parameters listed below.
@@ -70,3 +83,17 @@
 #     ~~~~~~$~~~~~~
 #
 # ---- WRITE CODE BELOW ---- #
+diamond = input('Enter a symbol: ')
+print('~'*10+ diamond*1 +'~'*10)
+print('~'*9+ diamond*3 +'~'*9)
+print('~'*8+ diamond*5 +'~'*8)
+print('~'*7+ diamond*7 +'~'*7)
+print('~'*6+ diamond*9 +'~'*6)
+print('~'*5+ diamond*11 +'~'*5)
+print('~'*4+ diamond*13 +'~'*4)
+print('~'*5+ diamond*11 +'~'*5)
+print('~'*6+ diamond*9 +'~'*6)
+print('~'*7+ diamond*7 +'~'*7)
+print('~'*8+ diamond*5 +'~'*8)
+print('~'*9+ diamond*3 +'~'*9)
+print('~'*10+ diamond*1 +'~'*10)

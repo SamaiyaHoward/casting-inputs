@@ -14,3 +14,10 @@
 #
 #   distance from (5, 10) to (35, -85) is 99.6423
 
+sqrt1 = 1/2
+x1 = int(input('x1 = '))
+y1 = int(input('y1 = '))
+x2 = int(input('x2 = '))
+y2 = int(input('y2 = '))
+d = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** sqrt1
+print(d)
