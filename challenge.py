@@ -101,5 +101,12 @@ while not flag:
 # Try doing it in a loop first, you may find that helpful.
 
 
-def factorial_recursive():
-    pass
+def factorial_recursive(number):
+    for num in range(number):
+        num1 = number - 1
+        num2 = num1 * number
+factorial_recursive(number)
+
+
+    while number > 0:
+        number ** num2

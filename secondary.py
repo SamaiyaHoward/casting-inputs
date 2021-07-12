@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: <Samaiya Howard>
+# date: <7/6/21>
 
 # -------------------- Section 4 -------------------- #
 

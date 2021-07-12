@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: <Samaiya Howard>
+# date: <7/6/21>
 
 # -------------------- Section 1 -------------------- #
 
@@ -114,7 +114,7 @@ print(num3*10)
 # ---- WRITE CODE BELOW ---- #
 radius = int(input('Enter a radius: '))
 diameter = radius * 2
-print(diameter)
+print('The diameter is:',diameter)
 
 # Objectives:
 #   3. Area of a Circle
@@ -136,9 +136,10 @@ print(diameter)
 # ---- WRITE CODE BELOW ---- #
 def area_circle(num):
     area = 3.14 * num ** 2 
-num = float(input('enter a radius: ') )
-area = area_circle(num)
-print(area) 
+    return area
+num = int(input('enter a radius: ') )
+print(area_circle(num))
+
 # -------------------- Section 4 -------------------- #
 #
 # Create a conversation with a faux (fake) AI, using input and print().
